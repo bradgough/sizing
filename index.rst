@@ -1,4 +1,4 @@
-.. title:: Introduction to Nutanix AHV
+.. title:: Introduction to Nutanix Sizing
 
 .. toctree::
   :maxdepth: 2
