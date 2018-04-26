@@ -1,8 +1,8 @@
 
-.. _lab_2:
+.. _intro_to_sizer:
 
 ------------------------------
-Lab 2 - Sizer (Instructor Led)
+Intro to Sizer
 ------------------------------
 
 Overview
@@ -10,38 +10,40 @@ Overview
 
 Learn how Nutanix engineers and partners can leverage the Sizer tool to select the right combination of hardware.
 
-Using Notes
-+++++++++++
+In this exercise you will log into Sizer, and work through a basic sizing. This will allow you to get comfortable in the Sizer tool.
+
+Basic Sizing
+++++++++++++
 
 Open \http://sizer.nutanix.com
 
-.. figure:: images/ahv_lab02_01.png
+.. figure:: images/intro_to_sizer_01.png
 
 Login with your **My Nutanix Login** credentials.
 
 Click **+ Create New Scenario**, and create a demo Scenario.
 
-.. figure:: images/ahv_lab02_02.png
+.. figure:: images/intro_to_sizer_02.png
 
 Enter a **Scenario Name**.
 
 Highlight the different vendor hardware models that support Nutanix software.
 
-.. figure:: images/ahv_lab02_03.png
+.. figure:: images/intro_to_sizer_03.png
 
 Highlight the scenario objective fields, and why it is important to put as much info in as possible.
 
-.. figure:: images/ahv_lab02_04.png
+.. figure:: images/intro_to_sizer_04.png
 
 Click **+ Add Workload**.
 
-.. figure:: images/ahv_lab02_05.png
+.. figure:: images/intro_to_sizer_05.png
 
 Enter a **Workload Name**.
 
 Highlight the different workload types.
 
-.. figure:: images/ahv_lab02_06.png
+.. figure:: images/intro_to_sizer_06.png
 
 Select **Server Virtualization**, and click **Next**.
 
@@ -56,45 +58,45 @@ Fill out the following fields and click **Save**:
 - **Encrypt Storage for VM** - Unchecked
 - **Data Protection** - No
 
-.. figure:: images/ahv_lab02_07.png
+.. figure:: images/intro_to_sizer_07.png
 
 Click **Modify** in the **Sizing Options** section.
 
-.. figure:: images/ahv_lab02_08.png
+.. figure:: images/intro_to_sizer_08.png
 
 Highlight the different **Sizing Options** under **Automatic**.
 
-.. figure:: images/ahv_lab02_09.png
+.. figure:: images/intro_to_sizer_09.png
 
 Highlight the different changes you can make under **Manual**.
 
-.. figure:: images/ahv_lab02_10.png
+.. figure:: images/intro_to_sizer_10.png
 
-.. figure:: images/ahv_lab02_11.png
+.. figure:: images/intro_to_sizer_11.png
 
 Highlight and explain **Sizing Details**.
 
-.. figure:: images/ahv_lab02_12.png
+.. figure:: images/intro_to_sizer_12.png
 
 Highlight and explain **Sizing Charts**.
 
-.. figure:: images/ahv_lab02_13.png
+.. figure:: images/intro_to_sizer_13.png
 
 Highlight and explain **Financial Analysis**.
 
-.. figure:: images/ahv_lab02_14.png
+.. figure:: images/intro_to_sizer_14.png
 
 Highlight and explain **Rack View**.
 
-.. figure:: images/ahv_lab02_15.png
+.. figure:: images/intro_to_sizer_15.png
 
 Click the :fa:`ellipsis-v`, and then click **Download BOM**.
 
-.. figure:: images/ahv_lab02_16.png
+.. figure:: images/intro_to_sizer_16.png
 
 Ensure that all options are checked, and click **Download**.
 
-.. figure:: images/ahv_lab02_17.png
+.. figure:: images/intro_to_sizer_17.png
 
 Review the BOM.
 

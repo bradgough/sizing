@@ -6,8 +6,9 @@
   :name: _labs
   :hidden:
 
-  examplelab1/examplelab1
-  examplelab2/examplelab2
+  intro_to_sizer/intro_to_sizer
+  rvtools/rvtools
+
 
 .. toctree::
   :maxdepth: 2
@@ -23,8 +24,7 @@
   :name: _appendix
   :hidden:
 
-  appendix/glossary
-  appendix/otherstuff
+  appendix/what_is_sizer
 
 .. _getting_started:
 
@@ -32,46 +32,24 @@
 Getting Started
 ---------------
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed velit odio, ultrices sed elementum vitae, dictum eget turpis. Etiam ultrices orci quis tempus tempus. Nulla non nibh imperdiet, suscipit risus quis, eleifend nisl. Morbi at posuere nibh, quis bibendum dui. Morbi dictum sem a ipsum bibendum condimentum. Suspendisse id ante gravida, efficitur leo a, consequat enim. Suspendisse tempor lorem vel purus scelerisque, vel facilisis lorem consequat. Pellentesque augue orci, iaculis vel mollis sit amet, scelerisque a tellus. Aliquam commodo in lectus feugiat porta.
+Welcome to the Nutanix Sizing Workshop! This workbook accompanies an instructor-led session that introduces Nutanix technologies sizing guidelines and best practices. You will also be introduced to the Nutanix Sizer tool, and work through multiple sizing scenarios.
 
 What's New
 ++++++++++
 
 - Workshop updated for the following software versions:
-  - AOS 5.6
-  - AFS 3.0
-- Added :ref:`example_lab_3`
+  - Sizer 3.0
+  - RV Tools Import
+#- Added :ref:`example_lab_3`
 
 Access Instructions
 +++++++++++++++++++
 
-The Nutanix Hosted POC environment can be accessed a number of different ways:
+The Nutanix Sizer tool can be accessed a number of different ways:
 
-Citrix XenDesktop
+Sizer Access
 .................
 
-https://citrixready.nutanix.com - *Accessible via the Citrix Receiver client or HTML5*
+**Nutanix Employees** - \http://sizer.nutanix.com or \http://my.nutanix.com, then choose: **Sizer**
 
-**Nutanix Employees** - Use your NUTANIXDC credentials
-
-**Non-Employees** - **Username:** POCxxx-User01 (up to POCxxx-User20), **Password:** *<Provided by Instructor>*
-
-Employee Pulse Secure VPN
-..........................
-
-https://sslvpn.nutanix.com - Use your CORP credentials
-
-Non-Employee Pulse Secure VPN
-..............................
-
-https://lab-vpn.nutanix.com - **Username:** POCxxx-User01 (up to POCxxx-User20), **Password:** *<Provided by Instructor>*
-
-Under **Client Application Sessions**, click **Start** to the right of **Pulse Secure** to download the client.
-
-Install and open **Pulse Secure**.
-
-Add a connection:
-
-- **Type** - Policy Secure (UAC) or Connection Server
-- **Name** - HPOC VPN
-- **Server URL** - lab-vpn.nutanix.com
+**Partners** - \http://sizer.nutanix.com, then choose **My Nutanix Login**
