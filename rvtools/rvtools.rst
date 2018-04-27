@@ -1,8 +1,8 @@
-.. Adding labels to the beginning of your lab is helpful for linking to the lab from other pages
-.. _example_lab_2:
+
+.. _rvtools:
 
 -------------
-Example Lab 2
+RV Tools
 -------------
 
 Overview

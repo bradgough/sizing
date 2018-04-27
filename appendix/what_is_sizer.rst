@@ -2,7 +2,7 @@
 .. _what_is_sizer:
 
 --------------
-Intro to Sizer
+What is Sizer
 --------------
 
 Accessing Sizer

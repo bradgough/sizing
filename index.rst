@@ -40,7 +40,7 @@ What's New
 - Workshop updated for the following software versions:
   - Sizer 3.0
   - RV Tools Import
-#- Added :ref:`example_lab_3`
+.. - Added :ref:`example_lab_3`
 
 Access Instructions
 +++++++++++++++++++
@@ -50,6 +50,6 @@ The Nutanix Sizer tool can be accessed a number of different ways:
 Sizer Access
 .................
 
-**Nutanix Employees** - \http://sizer.nutanix.com or \http://my.nutanix.com, then choose: **Sizer**
+**Nutanix Employees** - http://sizer.nutanix.com or http://my.nutanix.com, then choose: **Sizer**
 
-**Partners** - \http://sizer.nutanix.com, then choose **My Nutanix Login**
+**Partners** - http://sizer.nutanix.com, then choose **My Nutanix Login**
