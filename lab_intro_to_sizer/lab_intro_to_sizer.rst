@@ -98,9 +98,9 @@ Ensure that all options are checked, and click **Download**.
 
 .. figure:: images/intro_to_sizer_17.png
 
-Review the BOM.
+Download and Review the BOM.
 
-.. literalinclude:: BOM-Workshop_Demo.pdf
+:download:`BOM-Workshop_Demo.pdf <./BOM-Workshop_Demo.pdf>`
 
 Takeaways
 +++++++++

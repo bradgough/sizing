@@ -6,9 +6,9 @@
   :name: _labs
   :hidden:
 
-  intro_to_sizer/intro_to_sizer
+  what_is_sizer/what_is_sizer
+  lab_intro_to_sizer/lab_intro_to_sizer
   rvtools/rvtools
-
 
 .. toctree::
   :maxdepth: 2
@@ -16,7 +16,7 @@
   :name: _optional_labs
   :hidden:
 
-  examplelab3/examplelab3
+
 
 .. toctree::
   :maxdepth: 2
@@ -24,7 +24,7 @@
   :name: _appendix
   :hidden:
 
-  appendix/what_is_sizer
+  
 
 .. _getting_started:
 
