@@ -2,7 +2,7 @@
 .. _intro_to_sizer:
 
 ------------------------------
-Intro to Sizer
+Lab - Intro to Sizer
 ------------------------------
 
 Overview

@@ -2,8 +2,8 @@
 
 .. toctree::
   :maxdepth: 2
-  :caption: Labs
-  :name: _labs
+  :caption: Exercises and Labs
+  :name: _exercises_and_labs
   :hidden:
 
   what_is_sizer/what_is_sizer
@@ -24,7 +24,7 @@
   :name: _appendix
   :hidden:
 
-  
+
 
 .. _getting_started:
 
