@@ -83,7 +83,9 @@ Enter your email and password, and click **Login**.
 
 Now you will click **Request Capture**, and enter the email address of the prospect or customer you want to have run Live Optics collection.
 
-.. figure:: images/live_optics_05.png .. figure:: images/live_optics_06.png
+.. figure:: images/live_optics_05.png
+
+.. figure:: images/live_optics_06.png
 
 If the prospect or customer does not have a Live Optics account, you will be prompted create one for them.
 
