@@ -44,8 +44,8 @@ We need to collect more accurate data from the storage layer: Reads & Writes IOP
 
   We recommend running Live Optics for a 24h collect, then a second time over a 7 days period to get more accurate data and validate your sizing.
 
-How to get Live Optics
-++++++++++++++++++++++
+How To Get Live Optics Account
+++++++++++++++++++++++++++++++
 
 In Web Browser go to - https://www.liveoptics.com
 
@@ -70,8 +70,8 @@ Now click **Done**, and wait for your account to be created/activated (could be 
 
 Once you receive the email, follow the instructions to complete the account creation.
 
-Using Live Optics
-+++++++++++++++++
+How to Get Live Optics Collector
+++++++++++++++++++++++++++++++++
 
 In Web Browser go to - https://www.liveoptics.com
 
@@ -105,9 +105,113 @@ To do this, click on **Download Collectors**, and then download the collector yo
 
   When using the collector in standalone mode, you will need to generate a SIOKIT file. You will then upload that file on the Live Optics website.
 
+Running Live Optics Collector
++++++++++++++++++++++++++++++
 
+Unzip **LiveOptics.zip** on the windows machine you will be running the collection from.
+
+Next you will launch **LiveOpticsDotNet4_5.exe**.
+
+Choose your language, and click **Get Started**.
+
+.. figure:: images/live_optics_10.png
+
+Click **Yes, I Agree** on the Terms and Conditions.
+
+Confirm the user account information for Live Optics, and click **Yes, It Is Correct**.
+
+Select **Server & Virtualization**, and click **Start ->** on **Optical Prime** (Formally known as DPACK).
+
+.. figure:: images/live_optics_11.png
+
+Next choose if you want to connect to the Live Optics web service (automatically uploads SIOKIT), or if you want to run in standalone mode (requires manual upload of SIOKIT).
+
+Make your selection, and click **Next**. For this exercise we are selecting not to connect to Live Optics web service.
+
+.. figure:: images/live_optics_12.png
+
+.. note::
+
+  If you choose to connect to Live Optics web service you can choose a collection time from 10 minutes to 7 days. If you choose to not connect to Live Optics web service (standalone mode), your options are 10 minutes to 24 hours.
+
+Click **Add Remote Server**.
+
+.. figure:: images/live_optics_13.png
+
+Select the option to connect to VMware vCenter Server, enter the vCenter URL, and then click **Connect**.
+
+.. figure:: images/live_optics_14.png
+
+Enter vCenter username and password, then click **Ok**.
+
+.. figure:: images/live_optics_15.png
+
+Verify the VMware Clusters and Datacenters are correct, and click **Ok**.
+
+.. figure:: images/live_optics_16.png
+
+Select the capture duration, and click **Start Capture**. For this exercise we will use 10 minutes.
+
+.. figure:: images/live_optics_17.png
+
+When the collection completes, it will put the SIOKIT it generates in the same directory as the **LiveOpticsDotNet4_5.exe**.
+
+Now, in a web browser open https://www.liveoptics.com and login.
+
+Click on **Upload SIOKIT**.
+
+.. figure:: images/live_optics_18.png
+
+Select **Optical Prime** for the collection type, and click **Next**.
+
+.. figure:: images/live_optics_19.png
+
+Enter a project name, and click **Next**.
+
+.. figure:: images/live_optics_20.png
+
+Browse to the SIOKIT file that was generated, and click **Upload**.
+
+.. figure:: images/live_optics_21.png
+
+Review Live Optics Collection
++++++++++++++++++++++++++++++
+
+Go to **View Projects**.
+
+.. figure:: images/live_optics_22.png
+
+You should now see the project we created previously.
+
+To review the findings, click **Actions** and select **View Project**.
+
+You have 2 views to look at the data. The Environment View, and the Performance View.
+
+These provide information that you can use to size the platform (Storage activity, CPU, RAM, etc.)
+
+The Environment View.
+
+.. figure:: images/live_optics_23.png
+
+The Performance View.
+
+.. figure:: images/live_optics_24.png
+
+You can take this data, and present it in a report to a prospect or customer in Power Point or PDF format.
+
+To generate these reports, go to **View Projects**, click **Actions** and select **View Reports**.
+
+You now have the option to select what you want to include in the Power Point and/or PDF report. Select the options you would like, and click **Create Report**.
+
+.. figure:: images/live_optics_25.png
+
+Going through a Live Optics report during a meeting with your customer provides added value for several reasons:
+
+- Obtaining the trust of the prospect by demonstrating the limits of the existing infrastructure (Read / Writes latency, Queue Depth, Databases local dumps via scripts might generate huge writes during backup windows).
+- Demonstrate that the sizing you’ve provided covers all existing workloads (Most competitors do their sizing solely based on RVTools, if anything).
+- Some metrics can be very useful can only be found in the project and are missing in the PDF report.
 
 Takeaways
 +++++++++
 
-- Here is where we summarize any key takeaways from the module
+- Live Optics can be a useful tool for collecting more then just a "point in time" look at a prospect or customers environment.
