@@ -72,7 +72,7 @@ Review the other options you can change for an Automatic sizing:
 
 .. note::
 
-  You can get help / explanation of an item any time by clicking on the :fa:`question-circle
+  You can get help / explanation of an item any time by clicking on the :fa:`question-circle`
 
 When you are done reviewing the items, click **Apply**.
 
@@ -85,7 +85,9 @@ Reviewing The Automatic Sizing
 
 As we review what Sizer has chosen, and relate it back to the Prospect or Customer, a couple things come to mind.
 
-First, we know this opportunity may be budget constrained. This being the case, a NX-1365-G5 is a good starting point, and allows them grow easly with the remaining slot open for a fourth NX-1065-G5 node.
+First, we know this opportunity may be budget constrained. This being the case, a NX-1365-G5 is a good starting point, and allows them grow easily with the remaining slot open for a fourth NX-1065-G5 node.
+
+Second, single socket CPU is not the best choice for development environments. This is why it is good to eliminate the SMB models.
 
 Our next step is to download the BOM for review with the Prospect or Customer.
 
