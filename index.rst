@@ -10,6 +10,7 @@
   lab_intro_to_sizer/lab_intro_to_sizer
   rvtools/rvtools
   live_optics/live_optics
+  lab_automatic_sizing/lab_automatic_sizing
 
 .. toctree::
   :maxdepth: 2
