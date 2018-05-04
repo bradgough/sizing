@@ -14,7 +14,7 @@ In this exercise you will log into Sizer, and work through a basic sizing. This 
 Basic Sizing
 ++++++++++++
 
-Open \http://sizer.nutanix.com
+Open http://sizer.nutanix.com
 
 .. figure:: images/intro_to_sizer_01.png
 
